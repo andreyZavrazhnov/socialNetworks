@@ -3,7 +3,7 @@ describe('description -', function () {
 
     var template;
 
-    beforeEach(module('overlay'));
+    beforeEach(module('networks'));
     beforeEach(inject(function ($rootScope, $compile) {
         template = $compile(angular.element('<section class="row-full module-hero test" overlay />'))($rootScope);
         $rootScope.$apply();

@@ -1,7 +1,4 @@
-angular.module('overlay', [
-    'tuiApp.constants',
-    'tracking'
-])
+angular.module('networks', [])
     .directive('overlay', function (trackingService, $rootScope) {
         'use strict';
         return {
